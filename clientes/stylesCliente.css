@@ -1,0 +1,146 @@
+:root {
+    --negro: #000000;
+    --navy: #201E43;
+    --azul1: #134B70;
+    --blanco: #EEEEEE;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--blanco);
+    color: var(--negro);
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--navy);
+    color: var(--blanco);
+    padding: 10px;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 2rem;
+}
+
+.titulo span {
+    color: var(--azul1);
+}
+
+.nav-bg {
+    background-color: var(--navy);
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 15px;
+}
+
+.navegacion-principal a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.navegacion-principal a:hover {
+    color: var(--azul1);
+}
+
+.main {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header-1 {
+    font-size: 2.5rem;
+    color: var(--azul1);
+}
+
+.imagen img {
+    width: 150px;
+    height: 150px;
+}
+
+form {
+    background-color: var(--blanco);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: none;
+    margin-bottom: 20px;
+}
+
+.pad-legend {
+    padding: 0 10px;
+}
+
+legend {
+    font-size: 1.5rem;
+    color: var(--azul1);
+}
+
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.etiqueta {
+    font-size: 1rem;
+    color: var(--navy);
+    margin-bottom: 5px;
+}
+
+.input-text {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid var(--navy);
+    border-radius: 5px;
+    width: 100%;
+}
+
+.input-text:focus {
+    border-color: var(--azul1);
+    outline: none;
+}
+
+.boton-margin {
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.boton {
+    padding: 10px 20px;
+    background-color: var(--azul1);
+    color: var(--blanco);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: var(--navy);
+}

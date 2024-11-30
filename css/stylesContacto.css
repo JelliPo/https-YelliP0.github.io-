@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #EEEEEE;
+    color: #201E43;
+}
+
+/* Estilos del encabezado */
+.header {
+    text-align: center;
+    background-color: #134B70;
+    padding: 20px;
+    color: white;
+}
+
+.name-link {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.name-link:hover {
+    color: #201E43;
+    text-decoration: underline;
+}
+
+/* Contenedor principal */
+.contact-container {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo del header de contacto */
+.contact-header {
+    background-color: #134B70;
+    color: #FFFFFF;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+
+.contact-header p {
+    font-size: 1.2rem;
+}
+
+/* Estilos de la sección de información de contacto */
+h2 {
+    color: #134B70;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+/* Información de contacto con ícono */
+.informacionContacto {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.informacionContacto svg {
+    margin-right: 10px;
+}
+
+.contacto {
+    font-size: 1.5rem;
+    color: #134B70;
+}
+
+iframe {
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+}
+
